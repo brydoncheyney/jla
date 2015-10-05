@@ -1,0 +1,31 @@
+---
+  - hosts: webservers
+
+    tasks:
+    - name: add nginx repo
+      copy: src=roles/webserver/files/nginx.repo dest=/etc/yum.repos.d/nginx.repo
+
+    - name: install nginx
+      yum: name=nginx state=latest
+      notify:
+      - restart nginx
+
+    - name: make container for jla web application
+      file: path=/var/www/jla state=directory recurse=yes
+
+    - name: copy jla web application
+      copy: src=../../{{item}} dest=/var/www/jla
+      with_items:
+        - index.html
+        - javascript.js
+        - v4.css
+        - i
+
+    - name: configure jla web application
+      copy: src=roles/webserver/files/jla.conf dest=/etc/nginx/conf.d/
+      notify:
+      - restart nginx
+
+    handlers:    
+    - name: restart nginx
+      action: service name=nginx pattern=/etc/init.d/nginx state=restarted enabled=yes
