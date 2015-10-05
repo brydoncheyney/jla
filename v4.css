@@ -102,7 +102,7 @@ ul {
 
 #wrapper {
   background             : #000;
-  width                  : 760px;
+  width                  : 820px;
   border                 : 1px solid #fff;
   border                 : 1px solid #999;
   padding                : 0 20px 10px 20px;
@@ -191,20 +191,15 @@ p.flyer {
   text-align             : center;
 }
 
-p.flyer img {
+p.bandcamp {
+  margin                 : 30px 0 0 0;
+  text-align             : center;
+}
+
+p.flyer img,
+p.bandcamp img {
   border                 : 2px solid #fff;
   width                  : 300px;
-}
-
-#resources p.flyer {
-  margin                 : 30px 0 0 0;
-  padding                : 0;
-  text-align             : left;
-}
-
-#resources p.flyer img {
-  border                 : 1px solid #fff;
-  width                  : 248px;
 }
 
 .center {
