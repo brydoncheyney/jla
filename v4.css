@@ -147,12 +147,12 @@ ul#navigation li a:hover {
 
 #resources {
   float                  : left;
+  width                  : 300px;
   margin                 : 0 0 0 20px;
 }
 
 #resources #twitter_feed {
   margin                 : 40px 0 0 0;
-  width                  : 300px;
 }
 
 #footer {
