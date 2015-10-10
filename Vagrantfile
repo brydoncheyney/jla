@@ -17,7 +17,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       instance.vm.provision :hosts    
     end
 
-    instance.vm.synced_folder '../html', '/vagrant_data/jla/html' 
+    instance.vm.synced_folder 'html', '/vagrant_data/jla/html' 
 
     instance.vm.provision 'ansible' do |ansible|
       ansible.playbook = 'provisioning/playbook.yml'
