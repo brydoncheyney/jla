@@ -75,6 +75,10 @@ h2, h3 {
   background-image       : url(/i/28px-Bandcamp.png);
 }
 
+#resources h3#itunes {
+  background-image       : url(/i/28px-iTunes.png);
+}
+
 a {
   font-size              : 1.0em;
   color                  : #ff6600;
