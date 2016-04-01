@@ -1,4 +1,4 @@
-body { 
+body {
   background             : #000;
   background             : #b34700;
   font-family            : tahoma, arial, helvetica, sans-serif;
@@ -59,28 +59,20 @@ h2, h3 {
   color                  : #fff;
 }
 
-#resources h3#email {
-  background-image       : url(/i/28px-Email.png);
-}
-
 #resources h3#facebook {
   background-image       : url(/i/28px-Facebook2.png);
 }
 
-#resources h3#feed {
-  background-image       : url(/i/28px-RSS.png);
-}
-
-#resources h3#lastfm {
-  background-image       : url(/i/28px-Lastfm.png);
-}
-
-#resources h3#myspace {
-  background-image       : url(/i/28px-Myspace.png);
-}
-
 #resources h3#twitter {
   background-image       : url(/i/28px-Twitter.png);
+}
+
+#resources h3#spotify {
+  background-image       : url(/i/28px-Spotify.png);
+}
+
+#resources h3#bandcamp {
+  background-image       : url(/i/28px-Bandcamp.png);
 }
 
 a {
