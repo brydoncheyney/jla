@@ -79,6 +79,10 @@ h2, h3 {
   background-image       : url(/i/28px-iTunes.png);
 }
 
+#resources h3#amazonUK, #resources h3#amazonUS {
+  background-image       : url(/i/28px-Amazon.png);
+}
+
 a {
   font-size              : 1.0em;
   color                  : #ff6600;
@@ -153,14 +157,10 @@ ul#navigation li a:hover {
 
 #footer {
   clear                  : both;
-}
-
-#footer #copy {
-  float                  : right;
   letter-spacing         : 0.2em;
 }
 
-#footer #copy span {
+#footer span {
   color                  : #ff6600;
 }
 
