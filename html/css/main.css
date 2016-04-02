@@ -155,6 +155,11 @@ ul#navigation li a:hover {
   margin                 : 40px 0 0 0;
 }
 
+p#archive {
+  text-align             : center;
+  letter-spacing         : 0.2em;
+}
+
 #footer {
   clear                  : both;
   letter-spacing         : 0.2em;
