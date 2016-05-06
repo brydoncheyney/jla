@@ -1,8 +1,12 @@
-tasks:
 - name: add nginx repo
   copy: src=files/nginx.repo dest=/etc/yum.repos.d/nginx.repo
 
 - name: install nginx
   yum: name=nginx state=latest
+  notify:
+  - restart nginx
+
+- name: configure jla static web application
+  copy: src=roles/webserver/files/jla.conf dest=/etc/nginx/conf.d/
   notify:
   - restart nginx
