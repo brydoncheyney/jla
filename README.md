@@ -1,6 +1,7 @@
 # jla-static
 
-JLA static website
+JLA static website -
+[http://jesuslovesamerika.co.uk](http://jesuslovesamerika.co.uk)
 
 ## python http server
 
@@ -12,7 +13,7 @@ $ ./run.sh
 $ ps -ef | grep SimpleHTTPServer | awk '{print $2}' | xargs kill
 ```
 
-goto http://localhost:8000
+goto [http://localhost:8000](http://localhost:8000)
 
 ## vagrant/lxc/ansible
 
@@ -27,4 +28,4 @@ $ vagrant provision jla
 $ vagrant destroy -f jla
 ```
 
-goto http://jla.lxc
+goto [http://jla.lxc](http://jla.lxc)
