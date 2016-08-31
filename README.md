@@ -7,10 +7,10 @@ JLA static website -
 
 ```sh
 # start
-$ ./run.sh
+$ ./server.sh start
 
 # stop
-$ ps -ef | grep SimpleHTTPServer | awk '{print $2}' | xargs kill
+$ ./server.sh stop
 ```
 
 goto [http://localhost:8000](http://localhost:8000)
