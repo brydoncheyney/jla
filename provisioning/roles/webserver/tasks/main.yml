@@ -7,6 +7,6 @@
   - restart nginx
 
 - name: configure jla static web application
-  copy: src=roles/webserver/files/jla.conf dest=/etc/nginx/conf.d/
+  copy: src=roles/webserver/files/default.conf dest=/etc/nginx/conf.d/
   notify:
   - restart nginx
