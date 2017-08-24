@@ -29,3 +29,11 @@ $ vagrant destroy -f jla
 ```
 
 goto [http://jla.lxc](http://jla.lxc)
+
+## docker
+
+```sh
+$ sudo docker-compose up web
+```
+
+goto [http://localhost:8000](http://localhost:8000)

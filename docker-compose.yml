@@ -1,0 +1,7 @@
+web:
+  image: nginx
+  volumes:
+    - ./html:/opt/jla/html
+    - ./provisioning/roles/webserver/files/default.conf:/etc/nginx/conf.d/default.conf
+  ports:
+    - "8000:80"
