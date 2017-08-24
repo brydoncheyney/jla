@@ -1,0 +1,1 @@
+ssh brydon@remission.org.uk rsync -asv /home/brydon/projects/jla-static/html/ /www/jla/
