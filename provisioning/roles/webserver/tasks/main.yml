@@ -10,3 +10,8 @@
   copy: src=roles/webserver/files/default.conf dest=/etc/nginx/conf.d/
   notify:
   - restart nginx
+
+- file:
+    src: /vagrant_data/jla
+    dest: /opt/jla
+    state: link

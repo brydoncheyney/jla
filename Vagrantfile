@@ -14,10 +14,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define 'jla' do |instance|
     if Vagrant.has_plugin?('vagrant-hosts')
-      instance.vm.provision :hosts    
+      instance.vm.provision :hosts
     end
 
-    instance.vm.synced_folder 'html', '/vagrant_data/jla/html' 
+    instance.vm.synced_folder 'html', '/vagrant_data/jla/html'
 
     instance.vm.provision 'ansible' do |ansible|
       ansible.playbook = 'provisioning/playbook.yml'
