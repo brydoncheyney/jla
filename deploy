@@ -1,1 +1,1 @@
-rsync -asv ./html/ brydon@remission.org.uk:/www/jla/
+rsync -asv ./docs/ brydon@remission.org.uk:/www/jla/
