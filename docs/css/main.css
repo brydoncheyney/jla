@@ -60,27 +60,27 @@ h2, h3 {
 }
 
 #resources h3#facebook {
-  background-image       : url(/i/28px-Facebook2.png);
+  background-image       : url(/jla/i/28px-Facebook2.png);
 }
 
 #resources h3#twitter {
-  background-image       : url(/i/28px-Twitter.png);
+  background-image       : url(/jla/i/28px-Twitter.png);
 }
 
 #resources h3#spotify {
-  background-image       : url(/i/28px-Spotify.png);
+  background-image       : url(/jla/i/28px-Spotify.png);
 }
 
 #resources h3#bandcamp {
-  background-image       : url(/i/28px-Bandcamp.png);
+  background-image       : url(/jla/i/28px-Bandcamp.png);
 }
 
 #resources h3#itunes {
-  background-image       : url(/i/28px-iTunes.png);
+  background-image       : url(/jla/i/28px-iTunes.png);
 }
 
 #resources h3#amazonUK, #resources h3#amazonUS {
-  background-image       : url(/i/28px-Amazon.png);
+  background-image       : url(/jla/i/28px-Amazon.png);
 }
 
 a {
