@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 start() {
-  cd html && nohup python -m SimpleHTTPServer &>jla-static.log &
+  cd docs && nohup python -m SimpleHTTPServer &>jla-static.log &
   exit 0
 }
 
